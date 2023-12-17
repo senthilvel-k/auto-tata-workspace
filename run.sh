@@ -35,7 +35,7 @@ run_second_script() {
 while true; do
   show_menu
 
-  read -p "Enter your choice (1, 2, 3, or 4): " choice
+  read -p "Enter your choice (1, 2, or 3): " choice
 
   case $choice in
     1) run_first_script ;;
